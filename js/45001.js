@@ -12,3 +12,6 @@ $(".options-box i").click(function(){
     
     $(".colors-box").fadeToggle(200);
 })
+
+
+// loader

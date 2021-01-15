@@ -41,3 +41,16 @@ function myFunction2() {
     y.style.display = "none";
   }
 }
+
+// loader
+ $(window).on('load',function () {
+                 
+                $(".loading-overlay .loader").fadeOut(100,function () {
+                 $(this).parent().fadeOut(100,function () {
+                   // body...
+                 
+                  $("body").css("overflow","auto");
+             
+               });
+                });
+                });
