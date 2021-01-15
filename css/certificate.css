@@ -17,15 +17,14 @@ body
 {    
 margin-top: 20px;
 padding: 0px;
-margin-top: 150px;
 color:black;
 line-height: 1.7;
-/*background-color: #702124;*/
+background-color: #702124;
 overflow-x: hidden;
 font-weight: 600;
 font-size: 16px;   
 text-align: center;
-    background: url('../images/img2.jpg');
+   
 /**/font-family: cursive,sans-serif,monospace;*/
 }
 .custom-select{
@@ -33,6 +32,13 @@ text-align: center;
     width: 450px
 
     
+}
+#certificate{
+    padding-top: 150px;
+
+     background-color: lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #certificate button{
     background-color: brown!important;
@@ -138,6 +144,7 @@ footer{
     background-color: #702124;;
     color: white;
     padding-top: 50px;
+    bottom: 0px!important
 }
 footer ul li{
     list-style: none;

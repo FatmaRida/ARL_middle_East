@@ -33,11 +33,11 @@ function myFunction() {
 
 
 // button toggle div3
-function myFunction() {
-  var x = document.getElementById("myDIV3");
-  if (x.style.display === "none") {
-    x.style.display = "block";
+function myFunction2() {
+  var y = document.getElementById("myDIV3");
+  if (y.style.display === "none") {
+    y.style.display = "block";
   } else {
-    x.style.display = "none";
+    y.style.display = "none";
   }
 }
