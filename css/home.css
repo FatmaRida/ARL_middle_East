@@ -1,0 +1,567 @@
+*
+{
+    transition: all 1s;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: rgba(196, 45, 50, 0.68);
+    color: #fff;
+    text-shadow: none;
+}
+
+
+body
+{
+    
+    
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    color: #444444;
+    line-height: 1.6;
+    font-family: cursive,Helvetica, arial, sans-serif;
+    overflow-x: hidden;
+    
+ 
+  
+}
+
+
+
+
+/*start nav*/
+
+
+.navbar{
+	background: black!important;
+}
+
+.navbar i {
+    color: white;
+    margin-left: 20px;
+}
+.navbar-nav {
+    font-weight: 700;
+    
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.dropdown-item{
+    
+    font-family: cursive;
+    color: white;
+    
+}
+.navbar-nav .dropdown-menu {
+    background-color: #702124;
+}
+
+/*end nav*/
+
+.navbar-toggler{
+	font-size: 8px;
+	height: 35px;
+	right: 25px!important;
+	box-sizing: border-box;
+	margin-bottom: -3px;
+  background-color:#702124;
+  /*color: white;*/
+  opacity: 1;
+
+
+}
+.navbar-toggler:hover{
+	background-color: #302124;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/*end navbar*/
+
+
+
+
+/*start animation paragraph*/
+
+
+/*start clear*/
+
+ #clear{
+	content:" ";
+	clear: both;
+}
+
+/*end clear*/
+
+
+
+
+/*div social media*/
+#show-social-media{
+height: auto;
+    width: auto;
+    left: 0px;
+    top: 205px;
+    padding: 5px;
+    position: fixed;
+    z-index: 500;
+    background:rgba(0,0,0,.4);
+    
+}
+
+#hide-social-media{
+height: auto;
+    width: auto;
+    left: 0px;
+    top: 420px;
+    padding: 5px;
+    position: fixed;
+    z-index: 500;
+    background:rgba(0,0,0,.4);
+    
+}
+/*button social media*/
+button{
+	border-style: none;
+
+}
+button:focus{
+	outline: none;
+}
+
+
+#social-media
+ {
+    height: auto;
+    width: auto;
+    left: 0px;
+    top: 250px;
+    padding: 5px;
+    position: fixed;
+    z-index: 500;
+    background:rgba(0,0,0,.4);
+    font-size: 30px;
+    text-align: center;
+    display: none;
+   	line-height: 48px;
+    border: 2px solid transparent;
+  }
+
+/*end  div social media*/
+
+
+
+
+ /* start red message*/
+   .panel{
+                
+                
+                
+                background-color:  #dc3545;
+                position: fixed;
+                bottom: 90px;
+                right: 20px;
+                padding: 20px;
+                z-index: 2;
+                height: 480px;
+                width:20%;
+                display: none;
+            }
+          
+             .fa-comment{
+             	bottom: 20px;
+                right: 20px;
+               	position: fixed!important;
+               	z-index: 50!important;
+
+            }
+
+ 			.panel button{
+				position: absolute;
+				top:0px;
+				right:10px;
+				border: none;
+				background-color:  #dc3545;
+				color: white;
+				font-size: 30px;
+				padding-right: 4px;
+			}
+			 
+			   .panel input{
+				border-style: none;
+			}
+
+
+				.panel input:focus{
+				
+				outline: none;
+				
+			}
+
+				.panel button:focus{
+				
+				outline: none;
+				
+			}
+				.panel textarea{
+				outline: none;
+			}
+
+				.panel textarea:focus{
+				
+				outline: none;
+				
+			}
+
+            .form2{
+
+        	border:1px solid gray;
+        	padding: 30px;
+
+        }
+       .form2 input{
+       	border-radius: 2px;
+
+       }
+    
+			.charge{
+				width: 22px!important;
+			}
+
+
+/*end red message*/
+
+
+/*start section1*/
+.main{
+
+	  background-image: url('../images/imgf.jpg');
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-position: center;
+  
+
+}
+
+  /*rightSide in section1*/
+
+	.form1{
+		/*border:1px solid black;*/
+		background-color: #702124;
+		background-size: contain;
+		text-align: center;
+		margin-top: 250px;
+
+	}
+
+	.form1 input:focus{
+	outline: none;
+
+	}
+
+	.form1 textarea:focus{
+	outline: none;
+
+	}
+
+
+	 .button
+	{
+	background-color: #202124;
+	border-style: none;
+	border-color: #702124;
+    color: white;
+    }
+
+	.button:hover{
+		color: #702124;
+		background-color: gray;
+		border-color: #702124;
+	}
+
+  /*end rightSide in section1*/
+
+  /* start left side in section1*/
+
+.left-side{
+	margin-top: 0px;
+	padding: 50px;
+	background:rgba(0,0,0,.4);
+	color: white;
+	/*text-align: center;*/
+	height: auto!important;
+	/*line-height: 2;*/
+	position: relative;
+
+}
+
+    /*arrow on div1 in rightSide*/
+	.arrow{
+				content: '';
+			    position: absolute;
+			   right: -45px;
+			   bottom: 80px;
+		    
+		    /*transform: rotateY(180deg);*/
+		}
+
+    .left-side .button1{
+      background-color: #702124;
+      color: white;
+    }
+      .left-side .button1:hover{
+      color: #702124;
+		background-color: gray;
+		border-color: #702124;;
+    }
+
+  /*end rightSide in Section1*/
+
+  
+/*end section1*/
+
+
+
+
+
+/*start section2*/
+
+.main2{
+	background-image: url('../images/imgg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.main2 video{
+	background-color: rgba(0,0,0,.4);
+
+}
+.main2 video:focus{
+outline: none;	
+}
+/*style video*/
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  /*border: 3px solid #73AD21;*/
+} 
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  /*border: 3px solid #73AD21;*/
+}
+/*end section2*/
+
+
+
+
+
+
+/*start section3   class portfilo1*/
+.portifilo{
+  background-color: #23252f!important;
+  text-align: center;
+  color: white!important;
+  background-image: url('../images/girl.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card .img4{
+width: auto;
+height: 150px!important;
+
+}
+
+
+/*end section3 */
+
+
+
+/*start section5*/
+.CalibrationServices{
+	/*color: black!important;*/
+	    text-align: center;
+    position: relative;
+    z-index: 2;
+    font-size: 32px;
+    line-height: 36px;
+    background: url('../images/img8.jpg')!important;
+    background-attachment: fixed;
+}
+/*end section5*/
+
+
+/*start section7*/
+.section7{
+	background-image: url('../images/sky-78113.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+
+
+
+/*start media query*/
+@media screen and (max-width: 1550px)
+{
+	body{
+		overflow-x: hidden!important;
+		text-align: justify;
+	}
+h1,h2,h3,h4,p{
+	padding: 0px!important;
+	margin: 0px!important;
+	width: 100%!important;
+	display: block;
+}
+
+
+	/*start social media div*/
+		#social-media{
+        
+		 /*margin-left: 20px!important;*/
+
+	}
+	#social-media i{
+		font-size: 25px;
+	}
+	.left-side{
+		/*background: none;*/
+		width: 100%;
+		padding: 20px;
+		margin-top: 350px!important;
+	}
+
+	/*end social media div*/
+    
+
+
+
+/*start red message*/
+.panel{
+	width: 70%!important;
+}
+
+    /*start section1*/
+
+	    /*right leftSide*/
+		.main form{
+			
+			width:130%!important;
+			margin-left:7%!important;
+			
+		} 
+		/*end rightSide*/
+
+		/*start left side*/
+		.left-side{
+			margin-top:200px!important;
+			margin: auto;
+			width: 80%;
+		}
+		/*end leftSide*/
+
+    /*end section1*/
+
+
+
+	/*start section2*/
+	.main2 video{
+		width: 700px!important;
+	
+	}
+	/*end section2*/
+
+	/*start section3*/
+	.portifilo .card2{
+		padding-top: 80px!important;
+	}
+
+  
+   /*paragraph animation */
+
+
+
+   /*start final counter berfore footer*/
+
+}
+
+/*start section7*/
+/*background for card counter*/
+.cardCount{
+background: rgba(0,0,0,.4)!important;
+height: 250px;
+border:1px solid #fff;
+}
+
+.count
+{
+  /*line-height: 100px;*/
+  color:white;
+  font-size:40px;
+}
+#count {
+   width: 120px;
+   height: 80px;
+   position: relative;
+ 
+  margin:auto;
+}
+#count:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+  
+}
+
+
+
+
+/*start footer*/
+footer{
+    /*margin-top: 80px;*/
+    background-color: #702124;;
+    color: white;
+    padding-top: 50px;
+}
+footer ul li{
+    list-style: none;
+    
+
+}
+footer ul li a{
+   color: white;
+    text-decoration: none; 
+}
+footer h3{
+    color: black;
+}
+footer i{
+    color: white;
+}
+.copy {
+font-size: 12px;
+padding: 10px;
+border-top: 1px solid #FFFFFF;
+}

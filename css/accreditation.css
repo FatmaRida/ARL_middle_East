@@ -1,0 +1,145 @@
+
+*
+{
+    transition: all 1s;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: rgba(196, 45, 50, 0.68);
+    color: #fff;
+    text-shadow: none;
+}
+
+body
+{
+    
+    
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    color: #444444;
+    line-height: 1.6;
+    font-family: cursive,Helvetica, arial, sans-serif;
+    overflow-x: hidden;
+    
+ 
+  
+}
+
+
+
+
+/*start nav*/
+
+
+.navbar{
+    background: black!important;
+}
+
+.navbar i {
+    color: white;
+    margin-left: 20px;
+}
+.navbar-nav {
+    font-weight: 700;
+    
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.dropdown-item{
+    
+    font-family: cursive;
+    color: white;
+    
+}
+.navbar-nav .dropdown-menu {
+    background-color: #702124;
+}
+
+
+.navbar-toggler{
+    font-size: 8px;
+    height: 35px;
+    right: 25px!important;
+    box-sizing: border-box;
+    margin-bottom: -3px;
+  background-color:#702124;
+  /*color: white;*/
+  opacity: 1;
+
+
+}
+.navbar-toggler:hover{
+    background-color: #302124;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/*end nav*/
+
+
+/*start accreditation section*/
+.accreditation{
+    margin: 60px 0px 0px 0px;
+    background: url('../images/img8.jpg');
+    padding: 120px 0px 30px 0px;;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+
+}
+.accreditation h1{
+    text-align: center;
+    padding-bottom: 50px;
+    color: brown;
+}
+
+.accreditation ul li a{
+
+color: #111;
+font-weight:700;
+
+
+
+    
+}
+/*start footer*/
+footer{
+   
+    background-color: #702124;;
+    color: white;
+    padding-top: 50px;
+}
+footer ul li{
+    list-style: none;
+    
+
+}
+footer ul li a{
+   color: white;
+    text-decoration: none; 
+}
+footer h3{
+    color: black;
+}
+footer i{
+    color: white;
+}
+.copy {
+font-size: 12px;
+padding: 10px;
+border-top: 1px solid #FFFFFF;
+}
