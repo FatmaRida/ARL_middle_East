@@ -40,6 +40,7 @@ body
 
 .navbar{
 	background: black!important;
+  overflow-x: hidden;
 }
 
 .navbar i {
@@ -75,6 +76,8 @@ body
   background-color:#702124;
   /*color: white;*/
   opacity: 1;
+    overflow-x: hidden;
+
 
 
 }
@@ -100,6 +103,8 @@ body
  #clear{
 	content:" ";
 	clear: both;
+    overflow-x: hidden;
+
 }
 
 /*end clear*/
@@ -117,6 +122,8 @@ height: auto;
     position: fixed;
     z-index: 500;
     background:rgba(0,0,0,.4);
+      overflow-x: hidden;
+
     
 }
 
@@ -153,9 +160,11 @@ button:focus{
     background:rgba(0,0,0,.4);
     font-size: 30px;
     text-align: center;
-    display: none;
+    /*display: none;*/
    	line-height: 48px;
     border: 2px solid transparent;
+      overflow-x: hidden;
+
   }
 
 /*end  div social media*/
@@ -169,6 +178,7 @@ button:focus{
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  background-position: center;
+    overflow-x: hidden;
   
 
 }
@@ -181,6 +191,8 @@ button:focus{
 		background-size: contain;
 		text-align: center;
 		margin-top: 250px;
+      overflow-x: hidden;
+
 
 	}
 
@@ -222,18 +234,15 @@ button:focus{
 	height: auto!important;
 	/*line-height: 2;*/
 	position: relative;
+    overflow-x: hidden;
+
 
 }
 
     /*arrow on div1 in rightSide*/
-	.arrow{
-				content: '';
-			    position: absolute;
-			   right: -45px;
-			   bottom: 80px;
+	
 		    
-		    /*transform: rotateY(180deg);*/
-		}
+	
 
     .left-side .button1{
       background-color: #702124;
@@ -261,9 +270,12 @@ button:focus{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  overflow-x: hidden!important;
 }
 .main2 video{
 	background-color: rgba(0,0,0,.4);
+    overflow-x: hidden!important;
+
 
 }
 .main2 video:focus{
@@ -274,6 +286,8 @@ div.relative {
   position: relative;
   width: 400px;
   height: 200px;
+    overflow-x: hidden!important;
+
   /*border: 3px solid #73AD21;*/
 } 
 
@@ -283,6 +297,8 @@ div.absolute {
   right: 0;
   width: 200px;
   height: 100px;
+    overflow-x: hidden!important;
+
   /*border: 3px solid #73AD21;*/
 }
 /*end section2*/
@@ -300,12 +316,16 @@ div.absolute {
   background-image: url('../images/girl.jpg');
     background-repeat: no-repeat;
   background-size: cover;
+    overflow-x: hidden!important;
+
   background-position: center;
 }
 
 .card .img4{
 width: auto;
 height: 150px!important;
+  overflow-x: hidden!important;
+
 
 }
 
@@ -324,6 +344,8 @@ height: 150px!important;
     line-height: 36px;
     background: url('../images/img8.jpg')!important;
     background-attachment: fixed;
+      overflow-x: hidden!important;
+
 }
 /*end section5*/
 
@@ -334,6 +356,8 @@ height: 150px!important;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+    overflow-x: hidden!important;
+
 }
 
 
@@ -348,6 +372,20 @@ height: 150px!important;
 		overflow-x: hidden!important;
 		text-align: justify;
 	}
+  nav{
+    overflow-x: hidden;
+  }
+  .main{
+      overflow-x: hidden!important;
+
+  }
+  .main2{
+      overflow-x: hidden!important;
+
+  }
+  .portifilo{
+    overflow-x: hidden;
+  }
 h1,h2,h3,h4,p{
 	padding: 0px!important;
 	margin: 0px!important;
@@ -472,6 +510,7 @@ footer ul li{
 footer ul li a{
    color: white;
     text-decoration: none; 
+    font-size: 18px!important
 }
 footer h3{
     color: black;
