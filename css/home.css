@@ -25,8 +25,8 @@ body
     background-color: #ffffff;
     color: #444444;
     line-height: 1.6;
-    font-family: cursive,Helvetica, arial, sans-serif;
-    overflow-x: hidden;
+    font-family: Helvetica, arial, sans-serif;
+    /*overflow-x: hidden;*/
     
  
   
@@ -40,7 +40,6 @@ body
 
 .navbar{
 	background: black!important;
-  overflow-x: hidden;
 }
 
 .navbar i {
@@ -76,7 +75,7 @@ body
   background-color:#702124;
   /*color: white;*/
   opacity: 1;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 
 
 
@@ -103,15 +102,14 @@ body
  #clear{
 	content:" ";
 	clear: both;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 
 }
 
 /*end clear*/
 
 
-
-
+ 
 /*div social media*/
 #show-social-media{
 height: auto;
@@ -122,7 +120,7 @@ height: auto;
     position: fixed;
     z-index: 500;
     background:rgba(0,0,0,.4);
-      overflow-x: hidden;
+      /*overflow-x: hidden;*/
 
     
 }
@@ -163,7 +161,7 @@ button:focus{
     /*display: none;*/
    	line-height: 48px;
     border: 2px solid transparent;
-      overflow-x: hidden;
+      /*overflow-x: hidden;*/
 
   }
 
@@ -178,7 +176,6 @@ button:focus{
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	  background-position: center;
-    overflow-x: hidden;
   
 
 }
@@ -191,7 +188,6 @@ button:focus{
 		background-size: contain;
 		text-align: center;
 		margin-top: 250px;
-      overflow-x: hidden;
 
 
 	}
@@ -234,7 +230,7 @@ button:focus{
 	height: auto!important;
 	/*line-height: 2;*/
 	position: relative;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 
 
 }
@@ -270,11 +266,9 @@ button:focus{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  overflow-x: hidden!important;
 }
 .main2 video{
 	background-color: rgba(0,0,0,.4);
-    overflow-x: hidden!important;
 
 
 }
@@ -286,7 +280,6 @@ div.relative {
   position: relative;
   width: 400px;
   height: 200px;
-    overflow-x: hidden!important;
 
   /*border: 3px solid #73AD21;*/
 } 
@@ -297,7 +290,6 @@ div.absolute {
   right: 0;
   width: 200px;
   height: 100px;
-    overflow-x: hidden!important;
 
   /*border: 3px solid #73AD21;*/
 }
@@ -316,7 +308,7 @@ div.absolute {
   background-image: url('../images/girl.jpg');
     background-repeat: no-repeat;
   background-size: cover;
-    overflow-x: hidden!important;
+    /*overflow-x: hidden!important;*/
 
   background-position: center;
 }
@@ -324,7 +316,7 @@ div.absolute {
 .card .img4{
 width: auto;
 height: 150px!important;
-  overflow-x: hidden!important;
+  /*overflow-x: hidden!important;*/
 
 
 }
@@ -344,7 +336,11 @@ height: 150px!important;
     line-height: 36px;
     background: url('../images/img8.jpg')!important;
     background-attachment: fixed;
-      overflow-x: hidden!important;
+    background-size: cover;
+      background-size: auto;
+
+      /*overflow-x: hidden!important;*/
+      /*background-repeat: no-repeat!important;*/
 
 }
 /*end section5*/
@@ -356,7 +352,6 @@ height: 150px!important;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-    overflow-x: hidden!important;
 
 }
 
@@ -369,22 +364,29 @@ height: 150px!important;
 @media screen and (max-width: 750px)
 {
 	body{
-		overflow-x: hidden!important;
+		/*overflow-x: hidden!important;*/
 		text-align: justify;
 	}
   nav{
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
+  }
+  .form1{
+    /*max-width: 100%!important*/
   }
   .main{
       overflow-x: hidden!important;
 
   }
   .main2{
-      overflow-x: hidden!important;
+      /*overflow-x: hidden!important;*/
 
   }
   .portifilo{
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
+  }
+  footer{
+    text-align: justify!important;
+    font-family: 'sans-serif'
   }
 h1,h2,h3,h4,p{
 	padding: 0px!important;

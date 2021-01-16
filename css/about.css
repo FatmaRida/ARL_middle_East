@@ -25,7 +25,7 @@ body
     background-color: #ffffff;
     color: #444444;
     line-height: 1.6;
-    font-family: cursive,Helvetica, arial, sans-serif;
+    font-family: Helvetica, arial, sans-serif;
     overflow-x: hidden;
     
  
@@ -40,6 +40,7 @@ body
 
 .navbar{
     background: black!important;
+    /*overflow-x: hidden;*/
 }
 
 .navbar i {
@@ -123,6 +124,7 @@ footer{
     background-color: #702124;;
     color: white;
     padding-top: 50px;
+    margin: 0px!important
 }
 footer ul li{
     list-style: none;
